@@ -6,20 +6,16 @@ public class Empleado implements LeerInterface{
     public Empleado(){
     }
     public void Leer() {
-        System.out.println("Ingrese primer Nombre");
+        System.out.println("Ingrese primer Nombre:");
         PNombre = LEER.next();
-        System.out.println("Ingrese primer apellido");
+        System.out.println("Ingrese primer apellido:");
         PApellido = LEER.next();
-        System.out.println("Ingrese  CI de empleado");
+        System.out.println("Ingrese  CI de empleado:");
         CINumero = LEER.nextInt();
-        System.out.println("Ingrese extencionCI de empleado");
+        System.out.println("Ingrese extencionCI de empleado:");
         ExtCI = LEER.next();
     }
     public void Mostrar(){
-        System.out.println("Nombre: "+ PNombre);
-        System.out.println("Apellido: "+ PApellido);
-        System.out.println("CI: "+ CINumero);
-        System.out.println("CIExtenc: "+ExtCI);
-
+        System.out.printf("Nombre: %s  Apellido: %s  CI: %d  ExtCI:  %s", PNombre, PApellido, CINumero, ExtCI);
     }
 }

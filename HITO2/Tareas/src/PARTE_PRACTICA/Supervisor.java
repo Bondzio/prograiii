@@ -14,7 +14,6 @@ public class Supervisor extends Empleado{
         }
         public void Mostrar(){
             Empleado.Mostrar();
-            System.out.println("sueldo: "+ SUELD);
-            System.out.println("antiguedad: "+ ANTIG);
+            System.out.printf("Sueldo: %s  Antiguedad: %s",SUELD,ANTIG);
         }
 }

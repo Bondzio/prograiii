@@ -9,17 +9,15 @@ public class Gerente extends Empleado{
     }
     public void Leer(){
         Empleado.Leer();
-        System.out.println("Ingrese bono de Gerente");
+        System.out.println("Ingrese bono de Gerente:");
         Bono = LEER.nextInt();
-        System.out.println("Ingrese sueldo de Gerente");
+        System.out.println("Ingrese sueldo de Gerente:");
         S = LEER.nextInt();
-        System.out.println("Ingrese antiguedad de Gerente");
+        System.out.println("Ingrese antiguedad de Gerente:");
         ANT = LEER.nextInt();
     }
     public void Mostrar(){
         Empleado.Mostrar();
-        System.out.println("Bono: "+ Bono);
-        System.out.println("sueldo: "+ S);
-        System.out.println("antiguedad: "+ ANT);
+        System.out.printf("Bono: %d  Sueldo: %d  Antiguedad: %d",Bono,S,ANT);
     }
 }

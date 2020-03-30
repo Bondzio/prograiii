@@ -11,6 +11,6 @@ public class Secretaria extends Oficinista{
     }
     public void Mostrar(){
         OF.Mostrar();
-        System.out.println("Nombre Del Area: "+ NomArea);
+        System.out.printf("Nombre Del Area: %s", NomArea);
     }
 }
