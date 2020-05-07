@@ -8,11 +8,11 @@
 		<version>2.2.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.goorsc</groupId>
-	<artifactId>AppRest</artifactId>
+	<groupId>com.RcvS</groupId>
+	<artifactId>CoronaVirusPaciente</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>AppRest</name>
-	<description>REST API using Spring</description>
+	<name>CoronaVirusPaciente</name>
+	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
