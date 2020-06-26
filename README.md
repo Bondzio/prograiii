@@ -50,7 +50,7 @@
 ## CONTENIDO HITO 5 ##
 
 - [X] **_PROJECT_**
-- [X] **_MANUAL PROYECTO_**
+- [X] **_MANUAL PROYECTO PDF_**
 
 
 
